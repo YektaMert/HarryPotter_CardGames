@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "438948760656",
+    "project_id": "cardgame-e1f66",
+    "storage_bucket": "cardgame-e1f66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438948760656:android:1fa0f515a10145c3505555",
+        "android_client_info": {
+          "package_name": "com.example.cardgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438948760656-p806l5cp38esqpqqn0e4mkvur2c2rmug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC-WnjML3ezCOgIjyhvhCb2WykdOE2O8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438948760656-p806l5cp38esqpqqn0e4mkvur2c2rmug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438948760656:android:09275c11287fdd84505555",
+        "android_client_info": {
+          "package_name": "com.example.cardgames"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438948760656-p806l5cp38esqpqqn0e4mkvur2c2rmug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC-WnjML3ezCOgIjyhvhCb2WykdOE2O8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438948760656-p806l5cp38esqpqqn0e4mkvur2c2rmug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

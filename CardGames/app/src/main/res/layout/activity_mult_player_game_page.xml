@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen"
+    tools:context=".MultPlayerGamePageActivity">
+
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="11dp"
+        android:text="zaman"
+        android:textColor="@color/white"
+        android:textSize="26dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toStartOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:text="Puan:"
+        android:textColor="#FF5656"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView11"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="19dp"
+        android:text="0"
+        android:textColor="#C44343"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintStart_toEndOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puan:"
+        android:textColor="#FF5656"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView13"
+        app:layout_constraintStart_toStartOf="@+id/imageView1" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginBottom="19dp"
+        android:text="0"
+        android:textColor="#C44343"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView1"
+        app:layout_constraintStart_toEndOf="@+id/textView12" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="313px"
+        android:layout_height="445px"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="388dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/button_bg" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="313px"
+        android:layout_height="445px"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="380dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/button_bg" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="313px"
+        android:layout_height="445px"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/button_bg" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="313px"
+        android:layout_height="445px"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/button_bg" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
